@@ -1,2 +1,2 @@
 # CreateCHO
-Create Conjoint Files from inputs
+R package to create conjoint files from input data
