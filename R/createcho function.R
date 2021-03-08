@@ -1,12 +1,3 @@
-#' Create Cho Function
-#'
-#' This function creates cho file from merging conjoint design with data. If ratings are available, they will be merged into the file as well.
-#' @param design conjoint design file. Required
-#' @param data conjoint data file. Required
-#' @param rating likelihood ratings after exercise. Optional
-#' @import data.table, dplyr, tidyr
-#' @return cho file
-#' @export
 createcho <- function(design, data, rating) {
 
  callStop = function(message) { stop(message, call. = FALSE) }
