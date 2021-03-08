@@ -1,16 +1,16 @@
 Package: CreateCHO
-Title: What the Package Does (One Line, Title Case)
+Title: Create Conjoint CHO File
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Dakota",
+           family = "Ritz",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "dritz@trchome.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: Creates original and allocated conjoint data based on inputs. The allocate function
+             allows the user to specify if data should be formatted for Sawtooth of ChoiceModelR.)
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+Maintainer: Dakota A Ritz <dritz@trchome.com>
+Published: 2021-03-08
