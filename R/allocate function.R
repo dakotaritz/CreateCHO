@@ -1,12 +1,3 @@
-#' Allocate Function
-#'
-#' This function creates allocated cho file.
-#' @param data conjoint cho file. Required
-#' @param none Whether none concept is included or not in design. Requires a value of 0 for not included or 1 for included
-#' @param software Specify if allocation should be for CBC/HB or ChoiceModelR. Requires a value of 0 for ChoiceModelR or 1 for CBC/HB
-#' @import data.table, dplyr, tidyr
-#' @return allocated cho file
-#' @export
 allocate <- function(data, none, software) {
 
  callStop = function(message) { stop(message, call. = FALSE) }
