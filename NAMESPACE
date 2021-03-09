@@ -2,6 +2,6 @@
 
 export(allocate)
 export(createcho)
-import("data.table")
-import("dplyr")
+import(data.table)
+import(dplyr)
 import(tidyr)
