@@ -12,5 +12,9 @@ Description: Creates original and allocated conjoint data based on inputs. The a
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    data.table,
+    dplyr,
+    tidyr
 Maintainer: Dakota A Ritz <dritz@trchome.com>
 Published: 2021-03-08
